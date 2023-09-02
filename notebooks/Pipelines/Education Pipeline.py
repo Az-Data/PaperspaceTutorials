@@ -11,7 +11,7 @@ import torch
 torch.cuda.empty_cache()
 # from transformers import pipeline
 
-# COMMAND ----------
+# COMMAND -----------
 
 # DBTITLE 1,The Embeddings Model
 embeddings_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
